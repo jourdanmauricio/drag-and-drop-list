@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Mi lista de compras</h1>
+    <section class="hero">
+      <h2>Local list</h2>
+      <ul class="list container" id="list"></ul>
+      <form class="container" id="form">
+        <label for="name"> Nombre producto</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Escribe el nombre de tu producto"
+        />
+        <label for="price"> Precio producto</label>
+        <input
+          type="text"
+          name="price"
+          id="price"
+          placeholder="Escribe el precio de tu producto"
+        />
+        <button type="submit" id="sumbit-button">Agregar producto</button>
+      </form>
+    </section>
+    <button id="local-button" type="button">Clear local list</button>
+    <section class="online-products">
+      <h2>Online list</h2>
+      <ul class="list container" id="online-list"></ul>
+      <button id="online-button" type="button">Get next items</button>
+    </section>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
