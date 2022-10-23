@@ -26,7 +26,7 @@ ul {
 h1 {
   text-align: center;
   margin: 20px;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .hero {
@@ -50,7 +50,7 @@ h1 {
 
 .list--item {
   display: flex;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   margin-bottom: 4px;
 }
 
@@ -73,7 +73,7 @@ form.container label,
 form.container input,
 form.container button {
   width: 100%;
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   margin: 5px 0;
 }
 
